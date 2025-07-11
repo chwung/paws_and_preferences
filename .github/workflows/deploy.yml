@@ -19,13 +19,15 @@ jobs:
       with:
         node-version: '20'
         cache: 'npm'
+        cache-dependency-path: paws_and_preferences/package.json
 
     - name: Install dependencies
       run: npm ci
-      working-directory: .
+      working-directory: paws_and_preferences 
 
     - name: Build
       run: npm run build
+      working-directory: paws_and_preferences 
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
