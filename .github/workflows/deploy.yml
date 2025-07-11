@@ -33,6 +33,9 @@ jobs:
       run: npm run export
       working-directory: paws_and_preferences
 
+    - name: List out directory
+      run: ls -l paws_and_preferences/out || echo "out directory does not exist"
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
