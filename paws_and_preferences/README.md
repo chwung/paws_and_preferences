@@ -2,8 +2,8 @@
 
 **Deliverables**
 
-1. **Hosted Website:** 
-2. **Public GitHub Repository:** 
+1. **Hosted Website: https://paws-and-preferences.vercel.app/
+2. **Public GitHub Repository: https://github.com/chwung/paws_and_preferences/tree/main/paws_and_preferences
 
 Find Your Favorite Kitty with this fun, swipe-based cat preference discovery app!
 
